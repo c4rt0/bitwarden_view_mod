@@ -1,11 +1,10 @@
-# Bitwarden view mod (Chrome extension)
+# Bitwarden view mod (Firefox extension)
 
 ### Modifies narrow bitwarden (only) view 
 ## Usage:
 
 1. Clone the contents
-2. In Chrome navigate to Extensions -> Manage Extensions
-3. Toggle Developer Mode -> "On"
-4. Select "Load unpacked"
-5. Select the "bitwarden_mod" directory
+2. In Firefox navigate to address "about:debugging#/runtime/this-firefox"
+3. Select "Load Temporary Add-on"
+4. Select the "bitwarden_mod" directory
 6. Voilà! Your bitwarden now stretches to the max.

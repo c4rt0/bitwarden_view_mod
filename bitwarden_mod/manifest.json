@@ -1,12 +1,12 @@
 {
-    "name": "Bitwarden View Modifier",
-    "description": "Modifies the look of the default Bitwarden view",
-    "version": "1.0",
-    "manifest_version": 3,
-    "content_scripts": [
-        {
-        "matches": ["https://vault.bitwarden.com/*"],
-        "css": ["main.css"]
-        }
-    ]
+  "name": "Bitwarden View Modifier",
+  "description": "Modifies the look of the default Bitwarden view",
+  "version": "1.0.1",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://*.bitwarden.com/*"],
+      "css": ["main.css"]
+    }
+  ]
 }
